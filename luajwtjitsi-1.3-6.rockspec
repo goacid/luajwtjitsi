@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luajwtjitsi"
-version = "1.3-5"
+version = "1.3-6"
 
 -- LuaDist source
 source = {
-  tag = "1.3-5",
-  url = "git://github.com/LuaDist2/luajwtjitsi.git"
+  url = "git://github.com/LuaDist2/luajwtjitsi.git",
+  tag = "1.3-6"
 }
 -- Original source
 -- source = {
 -- 	url = "git://github.com/paweldomas/luajwt/",
--- 	tag = "v1.5"
+-- 	tag = "v1.6"
 -- }
 
 description = {
