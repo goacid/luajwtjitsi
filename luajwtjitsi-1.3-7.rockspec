@@ -1,23 +1,23 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luajwtjitsi"
-version = "1.3-6"
+version = "1.3-7"
 
 -- LuaDist source
 source = {
-  url = "git://github.com/LuaDist2/luajwtjitsi.git",
-  tag = "1.3-6"
+  tag = "1.3-7",
+  url = "git://github.com/LuaDist2/luajwtjitsi.git"
 }
 -- Original source
 -- source = {
--- 	url = "git://github.com/paweldomas/luajwt/",
--- 	tag = "v1.6"
+-- 	url = "git://github.com/jitsi/luajwt/",
+-- 	tag = "v1.7"
 -- }
 
 description = {
 	summary = "JSON Web Tokens for Lua",
 	detailed = "Very fast and compatible with pyjwt, php-jwt, ruby-jwt, node-jwt-simple and others",
-	homepage = "https://github.com/paweldomas/luajwt/",
+	homepage = "https://github.com/jitsi/luajwt/",
 	license = "MIT <http://opensource.org/licenses/MIT>"
 }
 
