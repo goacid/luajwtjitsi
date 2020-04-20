@@ -141,7 +141,9 @@ function M.decode(data, key, verify)
 	if verify then
 
 		if not header.typ or header.typ ~= "JWT" then
-			return nil, "Invalid typ"
+			-- return nil, "Invalid typ"
+			-- AWS cognito do not send typ
+			module:log("warning", "NO TYP specified");
 		end
 
 		if not header.alg or type(header.alg) ~= "string" then
